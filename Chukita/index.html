@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chukita Sushi - Venta de Sushi Online</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegacion -->
+    <header>
+        <h1>Chukita Sushi</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Pedido online</a>
+        </nav>
+    </header>
+
+    <!-- Banner gigante de encabezado -->
+    <div class="banner">
+        <!-- IMAGEN -->
+        <img src="imagenes/Chukitas.jpg" alt="Banner de Chukita Sushi">
+    </div>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Seccion de Bienvenida -->
+        <section id="nosotros">
+            <h2>El mejor sushi fresco en la puerta de tu casa</h2>
+            <p>Disfruta de piezas unicas preparadas al momento con ingredientes de la mas alta calidad. Pide tus boles, rolls y combos favoritos de forma rapida y sencilla.</p>
+            <div style="margin-top: 1.5rem; border-top: 1px solid #eee; padding-top: 1rem;">
+            <p><strong>✨ Creamos momentos inolvidables para:</strong> Eventos • Cumpleaños • Juntadas • Reuniones</p>
+            </section>
+
+        <!-- Seccion de Productos / Menu -->
+        <section id="menu">
+            <h2>Nuestro Menu</h2>
+            <div class="projects-container">
+            
+                <div class="project-card">
+                    <h3>Combo Tokio (40 piezas)</h3>
+                    <img src="imagenes/40piezas.png" alt="Combo Osaka" style="width: 100%; border-radius: 4px; margin-bottom: 10px;">
+                    <p>5 New York Philadelphia , 5 Tropical, 5 Niguiri, 5 barcelona, 5 Napoli,5 Cryspi, 5 Hot langos, 5 Apaltado .</p>
+                    <span class="price">$46.000</span>
+                </div>
+                <div class="project-card">
+                    <img src="imagenes/30piezas.png" alt="Combo Osaka" style="width: 100%; border-radius: 4px; margin-bottom: 10px;">
+                    <h3>Combo Osaka (30 piezas)</h3>
+                    <p>5New york Philadelphia, 5 Hot York Philadelphia,5 barcelona, 5 Niguiri, 5  Dos Salmon.</p>
+                    <span class="price">$35.000</span>
+                </div>
+              <div class="project-card">
+                    <img src="imagenes/20piezas.png" alt="Combo Osaka (20 piezas)">
+                    <h3>Combo Osaka (20 piezas)</h3>
+                    <p>5 Hot New york Philadelphia, 5 New york, 5 Niguiri de Salmon, 5 barcelona.</p>
+                    <span class="price">$27.000</span>
+                </div>
+                
+
+                <!-- Tarjeta de Postres (Próximamente) -->
+                <div class="project-card">
+                
+                    <img src="imagenes/Proximamente.jpeg" alt="Postres Chukita">
+                    <h3>Postres y Dulces 🍰</h3>
+                    <p>Estamos preparando el cierre perfecto para tu cena. Opciones dulces que no te vas a querer perder.</p>
+                    <span class="price" style="color: #888; font-size: 1.1rem;">¡Próximamente! ⏳</span>
+                </div>
+</div>
+        
+        </section>
+
+        <!-- Seccion de Contacto y Pedidos -->
+        <section id="contacto" class="pedido-section">
+            <h2>Hacé tu Pedido Online 🍣</h2>
+            <p>Completá tus datos y recibí el mejor sushi fresco directo en tu casa.</p>
+
+            <form action="#" method="POST" class="pedido-form">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+
+                <label for="telefono">Teléfono de contacto:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 2816-0233" required>
+
+                <label for="direccion">Dirección de entrega:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Calle, número, entre calles y localidad" required>
+
+                <label for="mensaje">¿Qué vas a pedir hoy? (Combos y aclaraciones):</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ej: 1 Combo Osaka (20 piezas). Aclaración: Sin palta por favor." required></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar Pedido 🚀</button>
+            </form>
+        </section>
+    </main>
+
+   <!-- Pie de pagina con toda la informacion -->
+    <footer>
+        <div style="max-width: 800px; margin: 0 auto; text-align: left; display: flex; flex-direction: column; gap: 8px; padding: 0 1rem;">
+            <p><strong>📍 Zona de entrega:</strong> José C. Paz, San Miguel y alrededores</p>
+            <p><strong>📞 Teléfono / Pedidos:</strong> 11 2816-0233</p>
+            <p><strong>🕒 Horarios:</strong> Martes a Domingo de 19:30 a 23:30 hs (Lunes cerrado)</p>
+            <p><strong>📱 Instagram:</strong> <a href="https://www.instagram.com/chukitasushi/" target="_blank" style="color: #e74c3c; text-decoration: none;">@chukita.sushi</a></p>
+            <p style="text-align: center; margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
+                &copy; 2026 Chukita Sushi. Creamos momentos inolvidables para Eventos • Cumpleaños • Juntadas • Reuniones. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html
